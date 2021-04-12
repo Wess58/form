@@ -1,4 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Montserrat&display=swap');
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+// html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  letter-spacing: 1px;
+}
+
+footer{
+  border-top: 1px solid #f1f1f1;
+  padding-top: 20px;
+  color: #5f6063;
+}
